@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 mkdir /usr/local/php7/etc/conf.d
 
 # Symlink php-fpm to php7-fpm
-ln -s /usr/local/php7/sbin/php-fpm /usr/local/php7/sbin/php7-fpm
+ln -s /usr/local/php7/sbin/php-fpm /usr/bin/php
 
 # Add config files
 cp php-src/php.ini-production /usr/local/php7/lib/php.ini
